@@ -1,7 +1,7 @@
 public class searchTreeNode<E> {
     
     //Creating the data placeholders
-    protected E primaryKey;
+    protected E userIdx;
     protected E firstName;
     protected E lastName;
     protected E streetAddress;
@@ -15,9 +15,9 @@ public class searchTreeNode<E> {
     searchTreeNode<E> left, right;
 
     //A method to set the data in the node to the user input data
-    public searchTreeNode(E incomingPrimaryKey, E incomingFirstName, E incomingLastName, E incomingStreetAddress, 
+    public searchTreeNode(E incomingUserIdx, E incomingFirstName, E incomingLastName, E incomingStreetAddress, 
     E incomingCity, E incomingState, E incomingZip, E incomingEmail, E incomingPhoneNumber) { 
-        this.primaryKey = incomingPrimaryKey;
+        this.userIdx = incomingUserIdx;
         this.firstName = incomingFirstName; 
         this.lastName = incomingLastName; 
         this.streetAddress = incomingStreetAddress; 
