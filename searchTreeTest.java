@@ -1,10 +1,6 @@
-//Name: Jasia Ernest
-//Assignment: Lab 6 - Binary Search Tree
-//Class: CS&145
-/*I'm making a user directory. This program should be used by a manager as it shows all the accounts and allows to delete
+/*This is a user directory. This program should be used by a manager as it shows all the accounts and allows to delete
 any account as well as modify an account. When I refer to the user, I mean the person using this program, in this case,
 a manager*/
-//Extra credit: I changed the recursion to iteration
 
 import java.util.Scanner;
 
